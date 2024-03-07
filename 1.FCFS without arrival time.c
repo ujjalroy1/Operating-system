@@ -16,6 +16,7 @@ int main()
    double avgtur=0.0,avgwt=0.0;
     printf("turnaround time : \n");
      printf("%d ",tur[0]);
+    avgtur+=tur[0];
     for(int i=1;i<n;i++)
     {
         tur[i]=tur[i-1]+burst[i];
